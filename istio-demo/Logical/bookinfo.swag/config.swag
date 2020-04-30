@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1588110547872"
+    createdUser="JAMES.THOMSON" id="-676511cf:171c2bec3fc:-7ec8"
+    selfDescribing="bookinfo"
+    syncSourceDetails="-676511cf:171c2bec3fc:-7f68"
+    type="swagger_definition" updatedTimestamp="1588110547912"
+    updatedUser="JAMES.THOMSON" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig locationtype="101">
+        <location>%%SYSTEM_PROJECT_ROOT%%bookinfo.yaml</location>
+    </resourceConfig>
+</editableResource>
