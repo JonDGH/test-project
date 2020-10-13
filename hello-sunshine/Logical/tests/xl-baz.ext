@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1583764785669" createdUser="JONATHAN.HENSON" id="-3424ed0a:170bfbbe7be:-7eb9" type="excel_test_data" updatedTimestamp="1583764825781" updatedUser="JONATHAN.HENSON" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig autoMapColumns="true" hasColumnNamesLine="true" linesBeforeColumnNames="1" linesToSkip="1" location="%%PROJECT/ROOT_DIRECTORY%%/data/baz.xlsx" loop="false" sheetName="" treatEmptyStringAsNull="false" treatTextAsEmpty="false" treatTextAsEmptyValue="" treatTextAsNull="false" treatTextAsNullValue=""/>
+</editableResource>

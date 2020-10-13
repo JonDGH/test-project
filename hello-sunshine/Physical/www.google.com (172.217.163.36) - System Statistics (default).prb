@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1602500522410"
+    createdUser="JONATHAN.HENSON" id="-4738a443:1751c796813:-7e8c"
+    selfDescribing="www.google.com (172.217.163.36) - System Statistics (default)"
+    type="probe_resource" updatedTimestamp="1602500522410"
+    updatedUser="JONATHAN.HENSON" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig defaultFlag="true" name="default"
+        physicalResourceID="-4738a443:1751c796813:-7e93" probeID="plugin.custom.SysStat">
+        <SysStatDatasource allProcesses="true" configuration="default"/>
+    </resourceConfig>
+</editableResource>

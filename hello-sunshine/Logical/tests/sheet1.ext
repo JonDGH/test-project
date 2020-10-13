@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1584021626612" createdUser="JONATHAN.HENSON" id="65ec4df7:170cf0ad83f:-7eb8" type="excel_test_data" updatedTimestamp="1584022851546" updatedUser="JONATHAN.HENSON" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig autoMapColumns="true" hasColumnNamesLine="true" linesBeforeColumnNames="0" linesToSkip="0" location="%%PROJECT/ROOT_DIRECTORY%%/data/2-sheets.xlsx" loop="false" sheetName="Sheet1" treatEmptyStringAsNull="false" treatTextAsEmpty="false" treatTextAsEmptyValue="" treatTextAsNull="false" treatTextAsNullValue=""/>
+</editableResource>

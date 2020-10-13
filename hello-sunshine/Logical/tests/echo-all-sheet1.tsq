@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1584021843577" createdUser="JONATHAN.HENSON" id="65ec4df7:170cf0ad83f:-7ea7" type="test_resource" updatedTimestamp="1584021913008" updatedUser="JONATHAN.HENSON" version="1.1">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig description="" name="">
+      <testTree>
+         <editableResource id="-4e3c3392:170a0bfaf58:-7e71" selfDescribing="Iterate over a test data set" type="iterate_action" version="1.0">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig description="" disableMappings="false" iterationContributor="true" maxIterationTime="0.0" maxIterationTimeExceededFailsTest="false" maxTotalIterationTime="0.0" maxTotalIterationTimeExceededFailsTest="false" name=" over sheet1" option="NOTHING" pacingtime="0.0" pacingtype="MIN_DURATION" performanceDisableValidation="false" performanceInstances="1" performanceInterleave="false" performanceMaximumIterationTime="0" performanceMaximumTestTime="0" performanceUseMaximumIterationTime="false" performanceUseMaximumTestTime="false" remoteAgent="" reportingLogIterations="1" reportingLogLogMessages="8" reportingLogMessages="4" reportingLogScriptExitCodes="8" reportingLogScriptOutput="8" reportingLogTagValues="8" reportingLogTimes="8" runSettingsContinueOnFail="true" runSettingsDelayEnabled="false" runSettingsDelayType="Fixed Delay" runSettingsIterations="" runSettingsMaximumDelayValue="0" runSettingsMinimumDelayValue="0" runSettingsRunFor="0" runSettingsRunType="Once Only" runSettingsTestDescription="" type="script:ECMAScript" useMaxIterationTime="false" useMaxTotalIterationTime="false" usepacing="false">
+               <testDataSetReference id="65ec4df7:170cf0ad83f:-7eb8" lkname="sheet1" lkpath="tests/sheet1" type="excel_test_data"/>
+               <mapper disableFiltersWhenEmpty="false" knownColumns="Street,House,Name" noAutoMap="Street,House,Name">
+                  <mapping columnName="House" tagName="house" type="4"/>
+                  <mapping columnName="Name" tagName="name" type="4"/>
+                  <mapping columnName="Street" tagName="street" type="4"/>
+               </mapper>
+               <testTree>
+                  <editableResource id="-4e3c3392:170a0bfaf58:-7e3b" selfDescribing="The log actions enables you to output messages to console and a logging file." type="logging_action" version="1.0">
+                     <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+                     <resourceConfig append="true" description="" flush="true" loggingMessage="%%street%% %%house%%, %%name%%" name="%%street%% %%house%%, %%name%%" outputFile="" role="0"/>
+                  </editableResource>
+               </testTree>
+            </resourceConfig>
+         </editableResource>
+      </testTree>
+      <tagDataStore inputMode="NONE" outputMode="NONE">
+         <tag defaultValue="" description="" name="house"/>
+         <tag defaultValue="" description="" name="street"/>
+         <tag defaultValue="" description="" name="name"/>
+      </tagDataStore>
+      <testprops messageClearance="false"/>
+   </resourceConfig>
+</editableResource>
